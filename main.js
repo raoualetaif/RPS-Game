@@ -18,3 +18,15 @@
 
 
 // we have 3 option to randomize 
+
+///random function
+$(document).ready(function() {
+function randomRPS(RPS){
+    var RPS=['Rock','paper','scissor']
+    var randomIndex = Math.floor(Math.random() * RPS.length);
+  return RPS[randomIndex];
+}
+}
+
+
+

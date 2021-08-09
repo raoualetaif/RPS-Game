@@ -18,3 +18,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+//roundedimage
+  img {
+  border-radius: 50%;
+}
