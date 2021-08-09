@@ -1,0 +1,20 @@
+.button {
+    font-size: 25px;
+    padding: 10px 20px;
+    background: #3f0069;
+    border: unset;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 2px #000;
+    outline: 0;
+    position: relative;
+  }
+  .button:before {
+    content: "\f255";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
